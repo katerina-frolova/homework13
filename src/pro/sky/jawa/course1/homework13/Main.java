@@ -15,10 +15,9 @@ public class Main {
         System.out.println(pushkin);
         System.out.println(tarasBulba);
 
-        System.out.println(gogol.equals(pushkin));
+        System.out.println(pushkin.equals(gogol));
         System.out.println(tarasBulba.equals(dubrovskiy));
-        Author gogol1 = new Author("Николай", "Гоголь");
-        System.out.println(gogol.equals(gogol1));
+
     }
 
 
