@@ -11,6 +11,13 @@ public class Main {
         dubrovskiy.setPublishingYear(1833);
         System.out.println(dubrovskiy.getTitle() + ", " + dubrovskiy.getAuthor().getName() + " " + dubrovskiy.getAuthor().getLastname() + ", " + dubrovskiy.getPublishingYear() + " год");
 
+
+        System.out.println(pushkin);
+        System.out.println(tarasBulba);
+
+        System.out.println(pushkin.equals(gogol));
+        System.out.println(tarasBulba.equals(dubrovskiy));
+
     }
 
 
